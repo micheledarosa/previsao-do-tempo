@@ -1,6 +1,6 @@
 # Previsão do Tempo 🌩️
 
-Projeto de um site de previsão do tempo desenvolvido utilizando HTML, CSS e JavaScript. O site permite aos usuários obterem informações sobre as condições climáticas atuais e previsões futuras para diferentes localizações.
+Projeto de um site de previsão do tempo desenvolvido utilizando HTML, CSS e JavaScript. O site permite aos usuários obterem informações sobre as condições climáticas atuais para diferentes localizações.
 
 ## Funcionalidades ✔️
 

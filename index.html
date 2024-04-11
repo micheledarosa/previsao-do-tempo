@@ -5,17 +5,25 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Previsão do Tempo</title>
+    <link rel="shortcut icon" href="./src/images/centigrado.png" type="image/x-icon">
+    <link rel="stylesheet" href="./src/css/style.css">
 </head>
 
 <body>
-    <div>
-        <input type="text">
-        <button>Buscar/button>
-        <h2>Tempo em São Paulo</h2>
-        <p>21 graus</p>
-        <p>Névoa</p>
-        <p>Umidade: 70%</p>
-        </input>
+    <div class="container">
+        <div class="search">
+            <input type="text">
+            <button>
+                <img class="lens" src="./src/images/procurar.png" alt="lupa">
+            </button>
+        </div>
+
+        <div class="info">
+            <h2 class="city">Tempo em São Paulo</h2>
+            <p class="temperature">21 graus</p>
+            <img src="./src/images/nuvem-de-sol.png" alt="nuvem e sol">
+            <p class="humidity">Umidade: 70%</p>
+        </div>
     </div>
 </body>
 
