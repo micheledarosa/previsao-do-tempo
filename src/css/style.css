@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Gemunu Libre', sans-serif;
     color: #fff;
 }
 
@@ -13,12 +13,12 @@ body {
     width: 100vw;
     display: flex;
     align-items: center;
-    justify-content: center;  
+    justify-content: center;
 }
 
 .container {
-    background-color: #000;
-    opacity: 0.7;
+    background-color: rgba(0, 0, 0, 0.6);
+    /* Cor e opacidade do container */
     width: 95%;
     max-width: 28rem;
     border-radius: 25px;
@@ -32,13 +32,17 @@ body {
 }
 
 input {
-    border: none;
+    border: 1.5px solid #7c7c7c2b;
     outline: none;
     border-radius: 20px;
     padding: 10px;
     background-color: #7c7c7c2b;
     width: calc(100% - 100px);
     font-size: 18px;
+}
+
+input:focus {
+    border: 1.5px solid rgba(0, 237, 255, 0.8);
 }
 
 .lens {
@@ -70,8 +74,18 @@ button:hover {
     font-size: 30px;
 }
 
-.info img {
-    margin-top: 15px;
+.info .description {
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+    margin-top: 1.5rem;
+}
+
+.info .description p {
+    margin-top: .8rem;
+    font-family: "Farsan", sans-serif;
+    font-weight: 600;
+    letter-spacing: 1px;
 }
 
 .humidity {
