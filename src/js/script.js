@@ -1,4 +1,4 @@
-let apiKey = "07a94735ca9c859666ef9a52077a2b7b";
+let apiKey = "cebcd482eda57fa9a6714c1c2ba91885";
 
 function displayData(data) {
     console.log(data)

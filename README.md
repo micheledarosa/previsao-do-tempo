@@ -1,26 +1,24 @@
 # Previsão do Tempo 🌩️
 
-Projeto de um site de previsão do tempo desenvolvido utilizando HTML, CSS e JavaScript. O site permite aos usuários obterem informações sobre as condições climáticas atuais para diferentes localizações.
+Projeto de um site de previsão do tempo desenvolvido utilizando HTML, CSS e JavaScript. O site permite aos usuários obterem informações sobre as condições climáticas atuais para diferentes localizações se conectando à API do [OpenWeatherMap](https://openweathermap.org/).
+
+## Deploy
+
+O projeto foi hospedado no Netlify, você pode acessá-lo [clicando aqui](https://micheledarosa-previsao-do-tempo.netlify.app/). Sinta-se à vontade para explorar e testar!
+
+![Imgur](https://i.imgur.com/5SMce0F.png)
 
 ## Funcionalidades ✔️
 
-🚧 This section is currently under construction. Check back later for updates! 🚧
+**Busca por localização:** Os usuários podem inserir a localização e clicar no botão ou simplesmente pressionar _Enter_ para iniciar a busca.
 
-## Como Utilizar 📙
+**Exibição de informações:** O site exibe as informações sobre as condições climáticas atuais, incluindo temperatura, descrição do tempo e umidade.
 
-1. Clone este repositório para sua máquina local.
+**Troca de Wallpaper:** Ao fechar e abrir novamente a página, o wallpaper de fundo é alterado, proporcionando uma experiência visual dinâmica.
 
-    ```bash
-    git clone https://github.com/seu-usuario/previsao-do-tempo.git
-    ```
+## Contribua 🤝
 
-2. Abra o arquivo `index.html` em seu navegador web.
-
-3. Insira o nome da cidade desejada nos campos apropriados.
-
-4. Pressione o botão de "Buscar" para obter a previsão do tempo para a localização especificada.
-
-5. Visualize as informações sobre as condições climáticas atuais e a previsão para os próximos dias.
+Se quiser contribuir para este projeto, sinta-se à vontade para abrir uma _issue_ ou enviar um _pull request_. Todas as sugestões e melhorias são bem-vindas!
 
 ## Tecnologias e Ferramentas 🛠️
 

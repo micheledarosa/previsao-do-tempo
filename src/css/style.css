@@ -6,6 +6,13 @@
     color: #fff;
 }
 
+:root {
+    --black-bg: rgba(0, 0, 0, 0.6);
+    --gray-bg: #7c7c7c2b;
+    --gray-hover: #7c7c7c;
+    --blue-focus: rgba(0, 237, 255, 0.8);
+}
+
 body {
     background-image: url("https://source.unsplash.com/1600x900/?landscape");
     background-size: cover;
@@ -17,8 +24,7 @@ body {
 }
 
 .container {
-    background-color: rgba(0, 0, 0, 0.6);
-    /* Cor e opacidade do container */
+    background-color: var(--black-bg);
     width: 95%;
     max-width: 28rem;
     border-radius: 25px;
@@ -32,17 +38,17 @@ body {
 }
 
 input {
-    border: 1.5px solid #7c7c7c2b;
+    border: 1.5px solid var(--gray-bg);
     outline: none;
     border-radius: 20px;
     padding: 10px;
-    background-color: #7c7c7c2b;
+    background-color: var(--gray-bg);
     width: calc(100% - 100px);
     font-size: 18px;
 }
 
 input:focus {
-    border: 1.5px solid rgba(0, 237, 255, 0.8);
+    border: 1.5px solid var(--blue-focus);
 }
 
 .lens {
@@ -52,13 +58,13 @@ input:focus {
 button {
     border: none;
     padding: 10px;
-    background-color: #7c7c7c2b;
+    background-color: var(--gray-bg);
     border-radius: 50%;
     cursor: pointer;
 }
 
 button:hover {
-    background-color: #7c7c7c;
+    background-color: var(--gray-hover);
 }
 
 .info {
@@ -82,7 +88,6 @@ button:hover {
 }
 
 .info .description p {
-    margin-top: .8rem;
     font-family: "Farsan", sans-serif;
     font-weight: 600;
     letter-spacing: 1px;
